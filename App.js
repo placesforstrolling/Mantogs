@@ -1,7 +1,7 @@
 import React from 'react';
 
-import {createAppContainer, createSwitchNavigator} from 'react-navigation';
-import {createStackNavigator} from 'react-navigation-stack';
+import { createAppContainer, createSwitchNavigator } from 'react-navigation';
+import { createStackNavigator } from 'react-navigation-stack';
 
 import Welcome from './screens/Welcome'
 import Home from './screens/Home';
@@ -19,7 +19,8 @@ const HomeStack = createStackNavigator({
       headerShown: false,
     },
   },
-})
+
+},{initialRouteName: 'Welcome'})
 
 
 const App = createSwitchNavigator({

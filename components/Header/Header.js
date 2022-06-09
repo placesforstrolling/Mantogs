@@ -11,16 +11,16 @@ import {
   SafeAreaView,
 } from 'react-native';
 
-const Header = ({headerBg}) => {
+const Header = () => {
 
     return (
-        <View style={[styles.header, {backgroundColor: headerBg}]}>
+        <View style={styles.header}>
           <View>
             <Text>
               <Icon name="navicon" style={styles.headerIcon}/>;
             </Text>
           </View>
-          <Pressable onPress={() => setModalVisible(true)}>
+          <Pressable>
             <Text>
               <Icon name="search" style={styles.headerIcon}/>;
             </Text>

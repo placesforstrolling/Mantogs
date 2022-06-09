@@ -1,4 +1,4 @@
-import React, {useState, useEffect} from "react";
+import React from "react";
 
 import {
     Text, 
@@ -14,7 +14,7 @@ const Home = ({navigation}) => {
 
     return (
         <SafeAreaView style={styles.body}>
-            <Header headerBg={headerBg}/>
+            <Header/>
             <ScrollView>
                 
             </ScrollView>
