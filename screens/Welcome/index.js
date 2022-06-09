@@ -10,15 +10,15 @@ import {
 
 import Button from '../../components/Button/Button';
 
-const link = 'https://png.pngtree.com/thumb_back/fw800/back_our/20190622/ourmid/pngtree-may-day-labor-day-driving-out-travel-cartoon-minimalist-background-image_221989.jpg';
+const link = 'https://clck.ru/qF8U5';
 
 const Welcome = ({navigation}) => {
 
     return (
         <SafeAreaView style={styles.body}>
-            <ImageBackground source={{ uri: "https://i.pinimg.com/originals/5d/a1/50/5da150ccc6d86d7822751f9fd81d6cce.jpg" }} resizeMode='cover' style={styles.background}>
+            <ImageBackground source={{ uri: "https://clck.ru/qF8fj" }} resizeMode='cover' style={styles.background}>
                 <View style={styles.textWrapper}>
-                    <Text style={styles.welcomeTitle} uppercase={true}>Welcome to Mantogs</Text>
+                    <Text style={styles.welcomeTitle}>Welcome to Mantogs</Text>
                     <Text style={styles.welcomeDesc}>Find places and explore your favourite destination with us</Text>
                 </View>
                 

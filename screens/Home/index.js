@@ -5,28 +5,28 @@ import {
     SafeAreaView,
     StyleSheet,
     ScrollView,
-} from 'react-native'
+    View
+} from 'react-native';
 
 import Header from "../../components/Header/Header";
+import TripTabs from "../../components/TripTabs/TripTabs";
 
 const Home = ({navigation}) => {
-
 
     return (
         <SafeAreaView style={styles.body}>
             <Header/>
-            <ScrollView>
-                
-            </ScrollView>
+            <TripTabs/>
         </SafeAreaView>
-        
     );
 }
 
 const styles = StyleSheet.create({
     body: {
         backgroundColor: '#fff',
-        paddingBottom: 50
+        paddingBottom: 0,
+        flex: 1,
+        paddingTop: 20
     },
     text: {
         fontFamily: 'Dosis',
